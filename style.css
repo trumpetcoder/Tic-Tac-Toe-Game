@@ -1,0 +1,77 @@
+/*Linked CSS page*/
+
+/*Paul Irish Box Reset*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  text-align: center;
+}
+
+h1 {
+	background: grey;
+}
+
+
+table {
+	margin: 0 auto;
+}
+
+td {
+	height: 100px;
+	width: 100px;
+	margin: auto;
+	border: 1px solid black;
+	font-size: 30px;
+}
+
+#upLeft {
+	border-top: none;
+	border-left: none;
+}
+
+#upMid {
+	border-top: none;
+}
+
+#upRight {
+	border-top: none;
+	border-right: none;
+}
+
+#midLeft {
+	border-left: none;
+}
+
+#midRight {
+	border-right: none;
+}
+
+#botLeft {
+	border-left: none;
+	border-bottom: none;
+}
+
+#botMid {
+	border-bottom: none;
+}
+
+#botRight {
+	border-bottom: none;
+	border-right: none;
+}
+
+h2 {
+	background: grey;
+}
+
+#inst {
+	background: red;
+}
+
+input {
+	height: 50px;
+	width: 50px;
+	background: red;
+}

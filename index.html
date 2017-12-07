@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- CHECKING -->
+	<!-- responsive design -->
+	<meta name="viewport" content="width=device-width">
+
+	<!-- linked style.css -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>TIC-TACK-TOE</title>
+</head>
+<body>
+
+	<!-- Create Header -->
+	<h1>TIC-TACK-TOE</h1>
+	
+	<!-- Created Board -->
+	<div id="container">
+		<table>
+			<tr>
+				<td id="upLeft" class="cell"></td>
+				<td id="upMid" class="cell"></td>
+				<td id="upRight" class="cell"></td>
+			</tr>
+			<tr>
+				<td id="midLeft" class="cell"></td>
+				<td id="mid" class="cell"></td>
+				<td id="midRight" class="cell"></td>
+			</tr>
+			<tr>
+				<td id="botLeft" class="cell"></td>
+				<td id="botMid" class="cell"></td>
+				<td id="botRight" class="cell"></td>
+			</tr>
+		</table>
+	</div>
+
+	<h2>Player X goes first, Player O goes second!</h2>
+	<h2 id="inst">Hit the Reset Button Below To Start Again</h2>
+
+
+
+	<form action="">
+  
+  		<input type="reset" value="Reset" id="reset">
+  
+	</form>
+
+
+
+	<!-- linked app.js -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
