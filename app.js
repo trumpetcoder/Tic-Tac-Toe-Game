@@ -30,7 +30,7 @@ $('td').click(function() {
 			if(($('#midLeft').html() == 'X' && $('#mid').html() == 'X' && $('#midRight').html() == 'X')){
 				alert ('Winner Player 1');
 			}
-			if(($('#botLeft').html() == 'X' && $('#botmid').html() == 'X' && $('#botRight').html() == 'X')){
+			if(($('#botLeft').html() == 'X' && $('#botMid').html() == 'X' && $('#botRight').html() == 'X')){
 				alert ('Winner Player 1');
 			}
 			if(($('#botLeft').html() == 'X' && $('#mid').html() == 'X' && $('#upRight').html() == 'X')){
@@ -60,7 +60,7 @@ $('td').click(function() {
 			if(($('#midLeft').html() == 'O' && $('#mid').html() == 'O' && $('#midRight').html() == 'O')){
 				alert ('Winner Player 2');
 			}
-			if(($('#botLeft').html() == 'O' && $('#botmid').html() == 'O' && $('#botRight').html() == 'O')){
+			if(($('#botLeft').html() == 'O' && $('#botMid').html() == 'O' && $('#botRight').html() == 'O')){
 				alert ('Winner Player 2');
 			}
 			if(($('#botLeft').html() == 'O' && $('#mid').html() == 'O' && $('#upRight').html() == 'O')){
