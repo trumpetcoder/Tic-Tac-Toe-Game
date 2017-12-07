@@ -57,7 +57,7 @@ $('td').click(function() {
 			if(($('#upRight').html() == 'O' && $('#midRight').html() == 'O' && $('#botRight').html() == 'O')){
 				alert ('Winner Player 2');
 			}
-			if(($('#midLeft').html() == 'O' && $('#mid').html() == 'O' && $('#botRight').html() == 'O')){
+			if(($('#midLeft').html() == 'O' && $('#mid').html() == 'O' && $('#midRight').html() == 'O')){
 				alert ('Winner Player 2');
 			}
 			if(($('#botLeft').html() == 'O' && $('#botmid').html() == 'O' && $('#botRight').html() == 'O')){
